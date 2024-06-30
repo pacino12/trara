@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    background-image: url(image/Contact.png);
+   
+}
+div img{
+    align-items: center;
+    text-align: center;
+    display: f;
+}
+.cat{
+    padding-top: 30px;
+    padding-left: 50%;
+    
+}
+div .message{
+    border: 2px solid transparent;
+    
+    width: 35%;
+    
+    text-align: center;
+    border-radius: 50%;
+}
+.highf{
+    padding-top: 18%;
+    padding-left: 52%; 
+    display: flex; 
+}
+div
+.button{
+    width: 60%;
+    height: 30%;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.button:hover{
+    background: transparent;
+}
+#photocontainer{
+    display: none;
+}
+#photocontainer
+.tarar{
+    display:none;
+}
+.titlek{
+    align-items: center;
+}
+#catphotos {
+ 
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers the images horizontally */
+    gap: 10px; /* Adds some space between the images */
+}
+
+#catphotos div {
+    flex: 1 1 200px; /* Each image div will try to take up at least 200px of width, but can grow to fill available space */
+    display: flex;
+    justify-content: center; /* Centers the images within their container div */
+    align-items: center; /* Centers the images within their container div */
+}
+
+#catphotos img {
+    max-width: 100%; /* Ensures the image does not exceed the width of its container */
+    height: auto; /* Maintains the aspect ratio of the images */
+    border-radius: 10px; /* Adds rounded corners to the images */
+}
+
+@media only screen and (max-width: 800px) {
+    /* Your CSS rules for small screens go here */
+    body{
+        background-image: url(image/file.png);
+       
+    }
+    .highf{
+        padding-top: 20%;
+        padding-left: 28%; 
+        display: flex; 
+    }
+    .button{
+        width: 30%;
+        height: 30%;
+        border: 2px solid black;
+        cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    /* Your CSS rules for small screens go here */
+    body{
+        background-image: url(image/phone.jpeg);
+       
+    }
+}
